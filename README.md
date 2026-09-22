@@ -1,3 +1,13 @@
 # gate-iteration-2
 
-This repository implements the second gate implementation by setting up a branch ruleset for the `main` branch to require a pull request before merging to `main`.
+This repository implements the second iteration of the `main` branch gate.
+
+## Iteration 1
+
+- Create a GitHub ruleset for the `main` branch
+  - Require a pull request
+
+## Iteration 2
+
+- Add GitHub Copilot pull request reviews
+- Require conversation resolution before merging

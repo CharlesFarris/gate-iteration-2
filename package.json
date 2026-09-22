@@ -1,11 +1,16 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "bugs": {
     "url": "https://github.com/CharlesFarris/gate-iteration-2/issues"
   },
   "description": "",
   "devDependencies": {
     "@types/node": "^22.20.4",
+    "tsx": "^4.23.15",
     "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": "26.x"
   },
   "homepage": "https://github.com/CharlesFarris/gate-iteration-2#readme",
   "main": "./src/index.ts",
@@ -16,7 +21,7 @@
   },
   "scripts": {
     "dev": "node ./src/index.ts",
-    "test": "node --test"
+    "test": "node --import tsx --test \"./src/**/*.test.ts\""
   },
   "type": "module",
   "version": "0.1.0"
