@@ -1,6 +1,6 @@
 # gate-iteration-2
 
-This repository implements the third iteration of the `main` branch gate.
+This repository implements the second iteration of the `main` branch gate.
 
 ## Iteration 1
 
